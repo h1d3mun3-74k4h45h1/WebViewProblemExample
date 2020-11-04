@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		A50281822552ADFD00897C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281812552ADFD00897C12 /* AppDelegate.swift */; };
 		A50281842552ADFD00897C12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281832552ADFD00897C12 /* SceneDelegate.swift */; };
-		A50281862552ADFD00897C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281852552ADFD00897C12 /* ViewController.swift */; };
 		A50281892552ADFD00897C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50281872552ADFD00897C12 /* Main.storyboard */; };
 		A502818B2552AE0000897C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A502818A2552AE0000897C12 /* Assets.xcassets */; };
 		A502818E2552AE0000897C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A502818C2552AE0000897C12 /* LaunchScreen.storyboard */; };
 		A50281992552AE0000897C12 /* WebViewProblemExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281982552AE0000897C12 /* WebViewProblemExampleTests.swift */; };
 		A50281A42552AE0100897C12 /* WebViewProblemExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281A32552AE0100897C12 /* WebViewProblemExampleUITests.swift */; };
+		A50281B62552AE2B00897C12 /* WebViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281B12552AE2B00897C12 /* WebViewLoader.swift */; };
+		A50281B72552AE2B00897C12 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281B22552AE2B00897C12 /* GCD.swift */; };
+		A50281B82552AE2B00897C12 /* WKWebViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281B32552AE2B00897C12 /* WKWebViewExtension.swift */; };
+		A50281B92552AE2B00897C12 /* ExampleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281B42552AE2B00897C12 /* ExampleWebViewController.swift */; };
+		A50281BA2552AE2B00897C12 /* ExampleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50281B52552AE2B00897C12 /* ExampleWebView.swift */; };
+		A50281BD2552AE4500897C12 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50281BC2552AE4500897C12 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		A502817E2552ADFD00897C12 /* WebViewProblemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewProblemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50281812552ADFD00897C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A50281832552ADFD00897C12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A50281852552ADFD00897C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A50281882552ADFD00897C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A502818A2552AE0000897C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A502818D2552AE0000897C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		A502819F2552AE0000897C12 /* WebViewProblemExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewProblemExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50281A32552AE0100897C12 /* WebViewProblemExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewProblemExampleUITests.swift; sourceTree = "<group>"; };
 		A50281A52552AE0100897C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50281B12552AE2B00897C12 /* WebViewLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewLoader.swift; sourceTree = "<group>"; };
+		A50281B22552AE2B00897C12 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		A50281B32552AE2B00897C12 /* WKWebViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewExtension.swift; sourceTree = "<group>"; };
+		A50281B42552AE2B00897C12 /* ExampleWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleWebViewController.swift; sourceTree = "<group>"; };
+		A50281B52552AE2B00897C12 /* ExampleWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleWebView.swift; sourceTree = "<group>"; };
+		A50281BC2552AE4500897C12 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50281BD2552AE4500897C12 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,7 @@
 				A50281972552AE0000897C12 /* WebViewProblemExampleTests */,
 				A50281A22552AE0000897C12 /* WebViewProblemExampleUITests */,
 				A502817F2552ADFD00897C12 /* Products */,
+				A50281BB2552AE4500897C12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +111,13 @@
 		A50281802552ADFD00897C12 /* WebViewProblemExample */ = {
 			isa = PBXGroup;
 			children = (
+				A50281B52552AE2B00897C12 /* ExampleWebView.swift */,
+				A50281B42552AE2B00897C12 /* ExampleWebViewController.swift */,
+				A50281B22552AE2B00897C12 /* GCD.swift */,
+				A50281B12552AE2B00897C12 /* WebViewLoader.swift */,
+				A50281B32552AE2B00897C12 /* WKWebViewExtension.swift */,
 				A50281812552ADFD00897C12 /* AppDelegate.swift */,
 				A50281832552ADFD00897C12 /* SceneDelegate.swift */,
-				A50281852552ADFD00897C12 /* ViewController.swift */,
 				A50281872552ADFD00897C12 /* Main.storyboard */,
 				A502818A2552AE0000897C12 /* Assets.xcassets */,
 				A502818C2552AE0000897C12 /* LaunchScreen.storyboard */,
@@ -126,6 +142,14 @@
 				A50281A52552AE0100897C12 /* Info.plist */,
 			);
 			path = WebViewProblemExampleUITests;
+			sourceTree = "<group>";
+		};
+		A50281BB2552AE4500897C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50281BC2552AE4500897C12 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50281862552ADFD00897C12 /* ViewController.swift in Sources */,
+				A50281B72552AE2B00897C12 /* GCD.swift in Sources */,
+				A50281B92552AE2B00897C12 /* ExampleWebViewController.swift in Sources */,
 				A50281822552ADFD00897C12 /* AppDelegate.swift in Sources */,
+				A50281BA2552AE2B00897C12 /* ExampleWebView.swift in Sources */,
+				A50281B82552AE2B00897C12 /* WKWebViewExtension.swift in Sources */,
+				A50281B62552AE2B00897C12 /* WebViewLoader.swift in Sources */,
 				A50281842552ADFD00897C12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
