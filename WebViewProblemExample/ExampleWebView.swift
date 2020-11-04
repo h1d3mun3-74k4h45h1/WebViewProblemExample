@@ -77,7 +77,9 @@ extension ExampleWebView: WKNavigationDelegate {
 
     func setupContentsHeight() {
         let heightString = webView.evaluateJavaScriptSync(from: "document.body.offsetHeight")
-        if let heightString = heightString, let height = NumberFormatter().number(from: heightString) {
+        let numberformatter = NumberFormatter()
+        numberformatter.locale = Locale(identifier: "en_US_POSIX")
+        if let heightString = heightString, let height = numberformatter.number(from: heightString) {
             print("succeed! height is \(CGFloat(truncating: height))")
             webView.isHidden = false
         } else {
